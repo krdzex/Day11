@@ -8,7 +8,7 @@ function splitArrayInGroups(arr, n) {
         }
         brojac++;
     }
-    console.log(result);
+    return result;
 }
 // Only change code above this line
 console.log(splitArrayInGroups(["a", "b", "c", "d"], 2));
